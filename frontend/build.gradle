@@ -1,0 +1,9 @@
+plugins {
+    id("org.siouan.frontend-jdk17") version "8.0.0"
+}
+
+frontend {
+    nodeVersion = "18.17.1"
+    assembleScript = "run build"
+    verboseModeEnabled = true
+}
