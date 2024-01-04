@@ -5,5 +5,5 @@
 
 # Possible to see database changes:
 http://localhost:8080/h2-console \
-db:jdbc:h2:mem:db \
-user:user
+JDBC URL:jdbc:h2:mem:db \
+User Name:user
