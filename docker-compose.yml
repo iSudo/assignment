@@ -1,0 +1,7 @@
+services:
+  user-sectors:
+    build:
+      context: .
+    container_name: user-sectors
+    ports:
+      - "8080:8080"
